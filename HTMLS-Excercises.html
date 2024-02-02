@@ -4,44 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTMLS Excercises.html</title>
-    
+   <link rel="stylesheet" href="style.css">
     <style>
-    
-        img{
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        table, th, td {
+       
+        table, th, td { 
             border:.5px solid black;
         }
     </style>
 </head>
 
-
-<body style="background-color: antiquewhite;">
-    <nav>
-<main><h3><a href="Profile/Profile.html">Profile</a></h3>
-<h3><a href="Profile/Educational-Backgroun.html">Educational Background </a></h3>    
-</main>
+<body>
+    <nav>  
     <header>
     <h2>Links</h2>
 </nav>
     <div class="topnav">    
     <a href="#">Home</a>
-    <a href="#">About us</a>
+    <a href="Profile.html">Profile</a>
+    <a href="Profile/Educational-Backgroun.html">Educational Background </a>  
     <a href="#">Contact</a>
 </div>
-<link rel="stylesheet" href="style.css">
 </header>
 <section>
-    <h3>Mema</h3>
+    
     <figure>
-<img src="Files/wvczoua2eum31.png" alt="A MEME" style="width: 40%; ;">
+
 <figcaption> <!--Wala ako alam ilagay sir hehe--></figcaption>
 </figure>
 </section>
-<section>
+<section class="Form">
     <h3>Fill up form</h3>
 <form action="Files/thank-you-meme-05.jpg">
     <label for="fname">First name</label><br>
@@ -58,8 +49,9 @@
     <input type="submit"> 
 </form>
 </section>
-<section>
-   <h3>Tables</h3>
+
+<section class="Table">
+    <h3>Tables</h3>
  <br><table style="width: auto;">
     <tr>
         <th>Name</th>
@@ -89,8 +81,7 @@
     </audio>
 </section>
 
-<section>
-    <h3>Mema again</h3>
+<section class="Video">
     <br><p>Thumbs Up </p>
     <video width="500" height="200" controls>
         <source src="Files/2cf20d77.mp4" type="video/mp4">
