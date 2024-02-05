@@ -1,0 +1,172 @@
+
+
+body, h1, h2, h3, p, ul, li{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    font-family: 'Arial', sans-serif;
+    background-image: url(Files/dominik-schroder-FIKD9t5_5zQ-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.logo a {
+}
+ .section {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    font-size:xx-small
+ }
+ .section-container{
+    display: flex;
+    align-items: center;
+ }
+
+ .content {
+    max-width: 600px;
+ }
+
+.title {
+    font-size: 3rem;
+    margin: 20px 0;
+}
+
+.title span {
+    color: #f76c6c;
+}
+
+.description {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.action-btns button {
+    padding: 10px 20px;
+    margin: 10px 10px 10px 0;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.Hire-me {
+    background-color: #f76c6c;
+    color: #fff;
+}
+
+.portfolio {
+    background-color: #333;
+    color: #fff;
+}
+.image{
+    text-align: center;
+}
+
+.image img{
+    max-width: 40%;
+    border-radius: 50%;
+    margin-left: 60%;
+    margin-bottom: 100px ;
+    margin-top: 10%;
+}
+.buttons {
+    background-color: #4b6777;
+    padding: 10px;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+}
+.buttons ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.buttons li {
+    display: inline-block;
+    margin-right: 20px;
+}
+.buttons a{
+    float: left;
+    display: block;
+    color: #333;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    text-align: center;
+    text-decoration: none;
+}
+
+.buttons a:hover{
+    background-color: #333;
+    color: #fff;
+}
+#About{
+    background-color: #e6dbc9;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#About h2 {
+    color: #333;
+}
+ #About p {
+    color: #666
+ }
+
+ #Contact{
+    background-color: #f5e3f1;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ }
+ #Contact h2{
+    color: #f76c6c;
+ }
+ #Contact p{
+    color: #666
+ }
+ #Form {
+    background-color: #e2ede1;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ }
+
+ label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+ }
+
+ input{
+    width: 40%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+ }
+ input[type="submit"]{
+    background-color: #c8c9e9;
+    color: #110f0f;
+    cursor: pointer;
+ }
+ input[type="submit"]:hover{
+    background-color: #9aacd4;
+ }
+ iframe {
+    margin: 0;
+    padding: 0;
+    width: 600px;
+    height: 450px;
+    border: 0;
+ }
