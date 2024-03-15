@@ -18,38 +18,79 @@
         }
 
         .eyeball {
-            background: transparent;
-            border-color: transparent;
+            background: white;
+            border: 2px solid black;
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            display: inline-block;
+            position: relative;
+            top: 25px;
+            left: 30px;
         }
 
         .pupil {
-            color: transparent;
+            background: black;
+            border-radius: 50%;
+            width: 10px;
+            height: 10px;
+            display: inline-block;
+            position: relative;
+            top: 5px;
+            left: 5px;
         }
 
         .beak {
-            color: yellow;
+            background: orange;
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            top: 50px;
+            left: 65px;
+            transform: rotate(45deg);
         }
 
         .body {
-            background-color: aqua;
+            background: brown;
+            width: 150px;
+            height: 100px;
+            position: absolute;
+            top: 80px;
+            left: 25px;
         }
 
         .wing {
-            color: yellow;
+            background: grey;
+            width: 100px;
+            height: 50px;
+            position: absolute;
+            top: 90px;
+            left: 25px;
         }
 
         .drumstick {
-            color: black;
+            background: #8B4513;
+            width: 30px;
+            height: 100px;
+            position: absolute;
+            top: 140px;
+            left: 10px;
         }
 
         .drumstick-right {
-            color: black;
+            background: #8B4513;
+            width: 30px;
+            height: 100px;
+            position: absolute;
+            top: 140px;
+            left: 160px;
+            transform: scaleX(-1);
         }
     </style>
     <div class="canvas background">
         <div class="air background"></div>
-            <div class="head">
-                <div class="eyeball">
+        <div class="head">
+            <div class="eyeball">
                 <span class="pupil">&middot;</span>
             </div>
             <div class="beak">
