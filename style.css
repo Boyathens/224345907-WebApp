@@ -1,0 +1,50 @@
+@font-face {
+    font-family: Font;
+    src: url(Files/Winter\ Storm.ttf);
+}
+body{
+    background-image: url(Files/pexels-stephan-seeber-1054218.jpg);
+    background-size: cover;
+    font-family: Font;
+    color: aliceblue;
+}
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+.topnav a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active{
+    background-color: #04AA6D;
+    color: white;
+}
+body{background-color: #fbe3e8;}
+
+.Table{
+    margin-left: auto;
+    margin-right: auto;
+}
+.Video{
+    margin-right: 1000px;
+    
+}
+.Form{
+    text-align: center;
+    max-width: fit-content;
+    margin-left: 600px;
+    padding: -20px;
+    background-color: rgba(0, 0, 0, 0.182);
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.968);
+}
