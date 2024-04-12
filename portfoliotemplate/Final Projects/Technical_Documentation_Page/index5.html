@@ -1,0 +1,193 @@
+<body>
+  <nav id="navbar">
+    <header><h3><span class="green">&#10100;</span>GIT & WSL<span class="blue">&#10101;</span></h3></header>
+    <ul>
+      <li><a class="nav-link" style="color: black;"  href="#introduction">Introduction</a></li>
+      <li><a class="nav-link" style="color: black;" href="#GIT">GIT</a></li>
+      <li><a class="nav-link" style="color: black;"  href="#getting_Started">Getting Started with Git</a></li>
+      <li><a class="nav-link" style="color: black;"  href="#B_Git_Commands">Basic Git Commands</a></li>
+      <li><a class="nav-link" style="color: black;"  href="#Collaborating">Collaborating with Git</a></li>
+      <li><a class="nav-link" style="color: black;"  href="#Git_Tips_and_Tricks">Git Tips and Tricks</a></li>
+      <li><a class="nav-link" style="color: black;"  href="#WSL">WSL</a></li>
+      <li><a class="nav-link" style="color: black;"  href="#Installing">Installing WSL</a></li>
+      <li><a class="nav-link" style="color: black;"  href="#what_is_CSS?">Ubuntu</a></li>
+      <li><a class="nav-link" style="color: black;"  href="#Sudo">Sudo</a></li>
+      <li><a class="nav-link" style="color: black;"  href="#Resources">Resources</a></li>
+      <link rel="stylesheet" href="style5.css">
+      <br><br>
+  </nav>
+
+  <main id="main-doc">
+    <section class="main-section" id="introduction">
+      <header>
+        Introduction
+      </header>
+      <article>
+        <p> This documentation focuses on what I've learned during my CC14 Web App class, though I've learned a lot more such as,how to build a website ,and more, This webpage will only be focusing on the fundumentals of GIT and WSL</p>
+        <p>Git and WSL complement each other seamlessly, providing developers with a robust and versatile toolkit for software development.</p>
+      </article>
+    </section>
+    <section class="main-section" id="GIT">
+      <header>
+        GIT
+      </header>
+      <article>
+        <p>Git is a distributed version control system designed to track changes in source code during software development.</p>
+        <p>  It allows multiple developers to collaborate on projects by providing mechanisms for managing, branching, merging, and tracking changes to codebase files. Git maintains a complete history of changes, enabling developers to revert to previous versions, analyze code evolution, and collaborate seamlessly across teams. </p>
+      </article>
+    </section>
+    <section class="main-section" id="getting_Started">
+      <header>
+        Getting Started with Git
+      </header>
+      <article>
+      <strong>How to Install Git:</strong> 
+      <p>1. Browse to the official Git website: <a href="https://git-scm.com/downloads">https://git-scm.com/downloads</a></p>
+       <p>2. Click the download link for Windows (or depending to your OS) and allow the download to complete.</p>
+       <img style="height: 300px;" src="../Technical_Documentation_Page/Screenshot 2024-04-10 173035.png" alt="">
+       <p>3. Browse to the download location (or use the download shortcut in your browser). Double-click the file to extract and launch the installer.</p>
+      <p>4. A Window will pop up, keep on clicking "Yes" or "Next" , note that everything is on default such as the Install Location,Text Editor,Component Selection, etc... Adjust to your own preferences</p>
+    <p>5.Once the installation is complete, tick the boxes to view the Release Notes or Launch Git Bash, then click Finish. </p>
+    <p>6. To check if Git has been installed successfuly, open your command prompt and type the command "GIT" if commands pop up you have successfuly installed GIT on your computer.</p>
+    <img style="height: 300px;" src="../Technical_Documentation_Page/Screenshot 2024-04-10 174435.png" alt="">
+    </article>
+    </section>
+    <section class="main-section" id="B_Git_Commands">
+      <header>
+        Basic Git Commands
+      </header>
+      <article>
+       
+         <code>1.git init:</code>
+          <p>Initializes a new Git repository in the current directory.</p>
+       <code>2.git clone [url]:</code>
+          <p>Clones an existing Git repository from a remote server to your local machine.</p>
+       <code>3.git add [file]:</code>
+          <p>Adds changes in a specified file to the staging area, preparing them to be committed.</p>
+          <code>4.git commit -m "[message]":</code>
+         <p>Records changes staged in the current branch with a descriptive message.</p>
+         <code>5.git status:</code>
+          <p>Displays the current status of the repository, including changes to be committed and untracked files.</p>
+          <code>6.git branch:</code>
+          <p>Lists all local branches in the repository.</p>
+        <code>7.git checkout [branch-name]:</code>
+          <p>Switches to the specified branch.</p>
+          <code>8.git merge [branch-name]:</code>
+          <p>Merges changes from the specified branch into the current branch.</p>
+          <code>9.git pull:</code>
+         <p>Fetches changes from the remote repository and merges them into the current branch.</p>
+         <code>10.git push: </code>
+         <p> Pushes local commits to the remote repository.</p>
+         <code>11.git log: </code>
+
+          <p>Displays a list of commits in the current branch, along with their metadata.</p>
+          <code>12.git remote -v: </code>
+
+          <p>Lists all remote repositories associated with the current repository, along with their URLs.</p>
+      </article>
+    </section>
+    <section class="main-section" id="Collaborating">
+      <header>
+       Collaborating with Git
+      </header>
+      <article>
+       <strong>1. Cloning remote repositories:</strong>
+       <code>git clone https://github.com/username/MyProject.git</code>
+       <strong>2. Pushing and pulling changes:</strong>
+       <code>git add .
+        git commit -m "Added new feature"
+        git push origin master </code>
+        <p>If another developer has pushed changes to the remote repository, and you want to incorporate those changes into your local copy, you would use:</p>
+        <code>git pull origin master</code>
+        <strong>3.Fetching and merging changes:</strong>
+        <p>Suppose you're working on a feature branch called feature/new-feature and want to merge changes from the master branch into your feature branch:</p>
+      <code>git checkout feature/new-feature
+        git fetch origin
+        git merge origin/master
+        </code>
+      </article>
+    </section>
+    <section class="main-section" id="Git_Tips_and_Tricks">
+      <header>
+        Git Tips and Tricks
+      </header>
+      <article>
+        <strong>1.Interactive Staging with git add -p:</strong>
+        <p>When working on multiple changes within a file, you can interactively stage specific changes using the git add -p command. This allows you to review each change chunk by chunk and selectively stage them for commit.</p>
+      <code>git add -p</code>   
+      <strong>2.eflog for Recovery:</strong>
+      <p>If you accidentally lose commits or changes, Git's reflog can be a lifesaver. The reflog keeps track of all commits and changes made in the repository, even those that have been reset or removed. You can use git reflog to view a log of all actions and find the commit you want to recover.</p>
+    <code>git reflog
+      git checkout HEAD@{1}  # Recover lost commit
+      </code>  
+      <strong>3.quash Commits with git rebase -i:</strong>
+      <p>You can combine multiple commits into a single, more coherent commit using interactive rebase (git rebase -i). This is particularly useful for cleaning up your commit history before merging changes into a main branch or creating pull requests.</p>
+    <code>git rebase -i HEAD~3  # Combine last 3 commits    </code>
+  <strong>4.Alias for Frequent Commands:</strong>  
+  <p>Create aliases for frequently used Git commands to save time and keystrokes. You can define aliases in your Git configuration file (~/.gitconfig) to create shortcuts for longer commands.</p>
+  <code>git config --global alias.co checkout
+    git config --global alias.br branch
+    git config --global alias.ci commit
+    </code>
+  </article>
+      
+  <section class="main-section" id="WSL">
+      <header>
+      WSL
+      </header>
+      <article>
+<p>        WSL, or Windows Subsystem for Linux, is a feature of Windows that enables you to run Linux applications natively on your Windows machine. It provides seamless integration between Windows and Linux environments, allowing developers to leverage Linux tools and utilities directly within Windows without the need for virtual machines or dual-boot setups.</p>
+        </article>
+      </section>
+    <section class="main-section" id="Installing">
+      <header>
+        Installing WSL
+      </header>
+      <article>
+        <strong>Open your command prompt or PowerShell</strong>
+        <p> Right Click and select "Run as administrator", enter the wsl --install command, then restart your Desktop/Laptop.</p>
+        <code>wsl --install</code>
+      </article>
+    </section>
+    <section class="main-section" id="what_is_CSS?">
+      <header>
+        Ubtunu
+      </header>
+      <article>
+        <p>Debian-based distributions provide a solid foundation for a wide range of computing tasks, from everyday desktop usage to server hosting, development, and specialized applications like ethical hacking or digital forensics. They offer a balance of stability, usability, and flexibility that makes them a popular choice for many users and organizations.</p>
+      <p>And one the most famous Debian-based distributions is Ubuntu</p>
+        <strong>Installing Ubuntu</strong>
+        <p>Open Command Prompt as an administrator:</p>
+        <p>Run the following command to download and install the Ubuntu distribution package:</p>
+        <code>wsl --install -d Ubuntu
+        </code>
+        <p>Wait for the installation process to complete. This may take some time as it downloads the Ubuntu image and sets up the WSL environment.</p>
+        <p>Once the installation is finished, you can launch Ubuntu by typing ubuntu in Command Prompt and pressing Enter.</p>
+        <code>ubuntu</code>
+      </article>
+    </section>
+    <section class="main-section" id="Sudo">
+      <header>
+      Sudo
+      </header>
+      <article>
+        <strong>Sudo</strong>
+        <p>'sudo' is a command-line utility found in Unix and Unix-like operating systems</p>
+        <p>The primary purpose of 'sudo' is to enable users to perform tasks that require elevated privileges, such as installing or removing software, modifying system configurations, or accessing files and directories that are restricted to the root user.</p>
+      <strong>Using 'sudo' Command</strong>
+      <p>To run commands with administrative privileges, use the sudo command followed by the command you want to execute.</p>
+      <p>Example:</p>
+      <code>sudo apt update
+      </code>
+      <p>This command updates the package lists for Ubuntu.</p>
+      </article>
+    </section>
+    <section class="main-section" id="Resources">
+      <header>
+        Resources
+      </header>
+      <a href="https://www.atlassian.com/git#:~:text=Git%20basics,of%20their%20code%20repository%20locally." style="color: blue;">1.GIT</a> <br>
+<a href="https://medium.com/maestral-solutions/windows-subsystem-for-linux-wsl-b2fd7eedce6d" style="color: blue;">2.WSL</a> <br>
+<a href="https://ubuntu.com/desktop/wsl" style="color: blue;">3.Ubuntu</a> <br>
+<a href="https://www.sudo.ws/" style="color: blue;">4.Sudo</a>
+    </section>
