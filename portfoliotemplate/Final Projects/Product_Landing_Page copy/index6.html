@@ -1,158 +1,128 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>NVIDIA</title>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="style6.css">
-        <link rel="icon" type="image/x-icon" href="https://img.icons8.com/color/344/nvidia.png">
-    </head> 
-    <body>
-        <header id="header">
-            <nav id="nav-bar"> 
-                <div class="logo">
-                  <img id="header-img" src="https://logodownload.org/wp-content/uploads/2014/09/nvidia-logo-16.png">
-                </div>
-                <ul>
-                    <li><a class="nav-link" href="#Product">Product</a></li>
-                    <li><a class="nav-link" href="#Architecture">Architecture</a></li>
-                    <li><a class="nav-link" href="#Specs">Specs</a></li>
-                    <li><a class="nav-link" href="#Shop">Shop</a></li>
-                </ul>
-            </nav>
-        </header>
-        <div class="site-wrapper">
-            <div id="Product" class="product-main-content">
-                <div class="product-text">
-                    <div class="mc-title">
-                        <h1>GeForce RTX 40 Series </h1>
-                    </div>
-                    <div class="mc-subtitle">
-                        <h2>BEYOND FAST</h2>
-                    </div>
-                    <div class="mc-description">
-                        <p>NVIDIA® GeForce RTX® 40 Series GPUs are beyond fast for gamers and creators. They're powered by the ultra-efficient NVIDIA Ada Lovelace architecture which delivers a quantum leap in both performance and AI-powered graphics. Experience lifelike virtual worlds with ray tracing and ultra-high FPS gaming with the lowest latency. Discover revolutionary new ways to create and unprecedented workflow acceleration.</p>
-                    </div>
-                    <form id="form" class="email-submit" action="https://www.freecodecamp.com/email-submit">
-                        <h2>STAY IN TUNE FOR NEWS!</h2>
-                        <input name="email" id="email" class="email-input" type="email" placeholder="Enter your email address" required>
-                        <input id="submit" class="button" type="submit" value="Send">
-                    </form>
-                </div>
-                <div class="product-image">
-                    <img alt="An image of the RTX 4090 GPU" src="https://images.nvidia.com/aem-dam/Solutions/geforce/ada/news/rtx-40-series-graphics-cards-announcements/geforce-rtx-4090-product-photo-002.png">
-                </div>
-            </div>
-            <div class="quote">
-                <blockquote>
-                    <p>Fantastically, futuristically fast</p>
-                    <figcaption><cite>-PCWorld</cite></figcaption>
-                </blockquote>
-            </div>
-            <div id="Architecture" class="architecture">
-                <div class="architecture-text">
-                    <div class="arc-title">
-                        <h3>NVIDIA Ada Lovelace Architecture</h3>
-                        <h1>Ahead of its time, ahead of the game.</h1>
-                    </div>
-                    <div class="arc-chars">
-                        <ul>
-                            <li>
-                                <h3>New Streaming Multiprocessors</h3>
-                                <p>Up to 2x performance and power efficiency</p>
-                            </li>
-                            <li>
-                                <h3>Fourth-Gen Tensor Cores</h3>
-                                <p>Up to 2x AI performance</p>
-                            </li>
-                            <li>
-                                <h3>Third-Gen RT Cores</h3>
-                                <p>Up to 2x ray tracing performance</p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="architecture-image">
-                    <img alt="A view of the RTX 4090 GPU" src="https://i.blogs.es/0408e6/rxt-4090/1366_2000.jpeg">
-                </div>
-            </div>
-            <div id="Specs" class="specs">
-                <h1>Specs</h1>
-                <div class="table-wrapper">
-                    <table class="specs-table">
-                        <tbody>
-                            <tr class="spec-container">
-                                <td class="spec-char">
-                                    NVIDIA CUDA Cores
-                                </td>
-                                <td class="spec-value">
-                                    <h3>16384</h4>
-                                </td>
-                            </tr>
-                            <tr class="spec-container">
-                                <td class="spec-char">
-                                    Boost Clock (GHz)
-                                </td>
-                                <td class="spec-value">
-                                    <h3>2.52</h3>
-                                </td>
-                            </tr>
-                            <tr class="spec-container">
-                                <td class="spec-char">
-                                    Memory Size
-                                </td>
-                                <td class="spec-value">
-                                    <h3>24 GB</h3>
-                                </td>
-                            </tr>
-                            <tr class="spec-container">
-                                <td class="spec-char">
-                                    Memory Type
-                                </td>
-                                <td class="spec-value">
-                                    <h3>GDDR6X</h3>
-                                </td>
-                            </tr>                   
-                        </tbody>
-                    </table>
-                    <input id="full-specs" class="button" type="submit" value="View full specs">
-                    <a href="#">Check your system compatibility ></a>
-                </div>
-            </div>
-            <div id="Shop" class="shop">
-                <h2>Shop</h2>
-                <div class="shop-description">
-                    <h1>GeForce RTX 4090</h1>
-                    <h2>Starting at $1599.00</h2>
-                    <input id="purchase" class="button" type="submit" value="See all buying options">
-                </div>
-                <div class="shop-video">
-                    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/51oCaaMCpnQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>              
-                </div>
+
+<head>
+  <link rel="stylesheet" href=".//style6.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+</head>
+
+<body>
+  <div id="page-wrapper">
+    <header id="header">
+      <div class="logo">
+        <img
+          style="display: flex; justify-content: center; align-items: center; width: 100px; height: 60px; border-radius: 50%; background-color: #3498db; color: #fff; font-size: 24px; font-weight: bold; text-transform: uppercase; text-align: center; text-decoration: none;"
+          id="header-img" src="../Product_Landing_Page copy/Untitled design.png" alt="Fresh strawberry shake" />
+      </div>
+
+      <nav id="nav-bar">
+        <ul>
+          <li><a class="nav-link" href="#Why">Why Us</a></li>
+          <li><a class="nav-link" href="#Watch">Watch</a></li>
+          <li><a class="nav-link" href="#pricing">Pricing</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="container"></div>
+
+    <section id="hero">
+      <h2 style="font-family: monospace; font-size: 30px;">Orgasm In a Cup</h2>
+      <form id="form" action="https://www.facebook.com/profile.php?id=61550072044983">
+        <input style="background-color: aliceblue;" name="name" id="name" type="text" placeholder="Your Name"
+          required />
+        <input style="background-color:aliceblue;" name="address" id="address" type="text" placeholder="Your Address"
+          required />
+        <input style="background-color: aliceblue;" name="phone" id="phone" type="tel" placeholder="Your Phone Number"
+          required />
+        <select style="background-color: aliceblue;" name="size" id="size" required>
+          <option value="" disabled selected>Select Size</option>
+          <option value="regular">Regular</option>
+          <option value="generous">Generous</option>
+          <option value="mega">Mega</option>
+        </select>
+        <button type="submit" class="btn" style="background-color: rgb(241, 241, 177);">Place Order</button>
+      </form>
+      </form>
+    </section>
+
+
+    <div class="container">
+      <section id="Why">
+        <div class="grid">
+          <div class="icon"><i class="fas fa-seedling fa-3x"></i></div>
+          <div class="desc">
+            <h2>Freshness Guaranteed </h2> <br>
+            <p style="font-family: monospace; font-size: 20px;">Made with the finest, hand-picked strawberries for a
+              burst of natural flavor.</p>
+          </div>
         </div>
-    </body>
-    <footer>
-        <div id="footer" class="footer">
-            <ul>
-                <li>
-                    <a href="#">Privacy Policy</a>
-                </li>
-                <li>
-                    <a href="#">Manage My Privacy</a>
-                </li>
-                <li>
-                    <a href="#">Legal</a>
-                </li>
-                <li>
-                    <a href="#">Accesibility</a>
-                </li>
-                <li>
-                    <a href="#">Product Security</a>
-                </li>
-                <li>
-                    <a href="#">Contact</a>
-                </li>
-            </ul>
-            <p>Copyright © 2022 NVIDIA Corporation</p>
+        <div class="grid">
+          <div class="icon"><i class="fas fa-pencil-alt fa-3x"></i></div>
+          <div class="desc">
+            <br>
+            <h2>Made Just for You</h2> <br>
+            <p style="font-family: monospace; font-size: 20px;">
+              Crafted with care and attention to detail, ensuring each shake is a delicious masterpiece.
+
+            </p>
+          </div>
         </div>
-    </footer>
+        <div class="grid">
+          <div class="icon">
+          </div>
+          <div class="icon"><i class="far fa-smile fa-3x"></i></div>
+          <div class="desc">
+            <br>
+            <h2>Guaranteed Smile</h2> <br>
+            <p style="font-family: monospace; font-size: 25px; ">
+              Delight in every sip and treat yourself to a moment of pure joy with our irresistible strawberry shake.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="Watch">
+        <iframe id="video" height="400"
+          src="../Product_Landing_Page copy/436271724_7788879531162265_70168612838065404_n.mp4" allowfullscreen></iframe>
+      </section>
+      <section id="pricing">
+        <div class="product" id="tenor">
+          <div class="level">Regular</div>
+          <h2>60</h2>
+          <img style="max-width: 250px;"
+            src="../Product_Landing_Page copy/435498690_879641987253058_6167860903414638248_n-removebg-preview.png"
+            alt="">
+          <button class="btn">Select</button>
+        </div>
+        <div class="product" id="bass">
+          <div class="level">Double</div>
+          <h2>100</h2>
+          <img style="max-width: 250px;"
+            src="../Product_Landing_Page copy/436536772_459602873169386_1800409312238900071_n-removebg-preview.png"
+            alt="">
+
+          <button class="btn">Select</button>
+        </div>
+        <div class="product" id="valve">
+          <div class="level">Mega</div>
+          <h2>120</h2>
+          <img style="max-width: 250px;"
+            src="../Product_Landing_Page copy/434306852_1165061838266771_3743217072206740404_n-removebg-preview.png"
+            alt="">
+          <button class="btn">Select</button>
+        </div>
+      </section>
+      <footer>
+        <ul>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        
+      </footer>
+    </div>
+  </div>
+</body>
+
 </html>
