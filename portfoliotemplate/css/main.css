@@ -1095,9 +1095,9 @@
  }
  header .top-bar {
      display: block;
-     background: #000000;
-     min-width: 220px;
-     min-height: 66px;
+     background: #4c4c4b;
+     min-width: 170px;
+     min-height: 50px;
      position: absolute;
      left: 90px;
      top: 0;
@@ -1119,7 +1119,7 @@
      color: transparent;
      width: 92px;
      height: 15px;
-     background: url("../images/logo.png") no-repeat center;
+     background: url("../images/logo-color.png") no-repeat center;
      background-size: 92px 15px;
  }
  
@@ -2190,7 +2190,7 @@
   * ------------------------------------------------------------------- 
   */
  #stats {
-     background: #990047;
+     background: #2d545e;
      padding-top: 7.2rem;
      padding-bottom: 6rem;
      text-align: center;
@@ -2257,7 +2257,7 @@
   * ------------------------------------------------------------------- 
   */
  #contact {
-     background: #151515;
+     background: #2f3948 ;
      padding-top: 12rem;
      padding-bottom: 7.2rem;
  }
